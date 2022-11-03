@@ -1,0 +1,47 @@
+section{
+   
+    padding-bottom: 40px;
+    padding-top: 15px;
+    width: 100%;
+
+}
+.infor-cover{
+    background-color: #e9e2d5;
+
+
+     img{
+      
+        margin-top:0px;
+        margin-bottom: 50px;
+       display: flex;
+       max-width: 100%;
+        
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+       .container{
+        width: 85%;
+      
+       }
+    }
+    .text-info{
+  
+       
+       h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 15px ;
+    color: #867465;
+  
+       }
+       p{
+        margin: 0 0 15px;
+        font-style: normal;
+        line-height: 1.6em;
+        font-size: 20px;
+        color: #867465;
+        padding-right: 1rem;
+       }
+}

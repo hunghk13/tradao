@@ -1,0 +1,80 @@
+.middle-banner {
+  padding: 20rem 9rem;
+  overflow: hidden;
+  background-size: 100% 100%;
+  text-align: right;
+  background: url(../../../assets/IMG/travn.jpg) top center / cover no-repeat;
+}
+p.headline{
+color: #ffffff;
+font-size: 42px;
+margin-bottom: 0.2em;
+line-height: 47px;
+font-weight: normal;
+
+
+}
+.middle-title button {
+ 
+  padding: 1.2rem;
+  top: 7rem;
+  right: 20rem;
+  background-color: #cce31afa;
+  font-size: 2rem;
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.375;
+  border-radius: 4px;
+}
+
+@media (min-width: 992px) {
+  .col-md-offset-6 {
+    margin-left: 50%;
+    width: 50%;
+  }
+}
+@media (max-width: 991px){
+  .middle-title button {
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+}
+
+@media (min-width: 768px) {
+  p.headline {
+    font-size: 36px;
+  }
+  
+  
+}
+@media (max-width: 767px){
+  .middle-title {
+    text-align: center;
+}
+p.headline {
+    font-size: 24px;
+    text-align: center;
+}
+.middle-title button {
+  
+  padding: 5px 10px;
+  font-size: 15px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+
+
+}
+}

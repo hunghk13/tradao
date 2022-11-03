@@ -1,0 +1,44 @@
+.services-submenu {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+
+  list-style: none;
+
+  text-align: start;
+
+  z-index: 99;
+}
+
+.services-submenu li {
+  background-color: aliceblue;
+  cursor: pointer;
+  border: chartreuse solid .5px;
+  display: block;
+ 
+}
+
+.services-submenu li a {
+  font-weight: normal;
+  padding: 30px;
+
+  color: #867566;
+  font-size: 2rem;
+  position: relative;
+
+  &:hover {
+    color:#FFCC33;
+   animation: anmi 1s ease;
+   animation-fill-mode: both;
+  }
+}
+
+.services-submenu.clicked {
+  display: none;
+}
+
+@keyframes anmi{
+  from {left: 0px;}
+  to {left: 20px;}
+}
+

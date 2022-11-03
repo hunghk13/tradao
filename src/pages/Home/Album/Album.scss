@@ -1,0 +1,39 @@
+
+a.gallery{
+    position: relative;
+    display: block;
+
+
+
+    img{
+        max-width: 100%;
+      object-fit: fill;
+       
+    }
+}
+
+
+.clients-r{
+    background-color: white;
+    overflow: hidden;
+    padding: 0;
+}
+
+.div-group{
+    width: 20%;
+    float: left;
+    
+    img{
+        max-width: 100%;
+      
+    }
+}
+
+.gallery:hover{
+   opacity: 0.9;
+  
+   padding: 25px;
+  
+ 
+ 
+}
