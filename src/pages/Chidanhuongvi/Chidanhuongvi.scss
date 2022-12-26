@@ -1,0 +1,31 @@
+.blog-1{
+.blog-1_cover{
+    margin-top: 1rem;
+    border-top: solid 1px #d5c3aa;
+    padding-top: 1rem;
+    .inner{
+        padding-bottom: 2rem;
+    }
+}
+.p-name{
+    font-size: 24px;
+    margin-bottom: 1rem;
+    font-weight: 400
+}
+
+    .blog-home{
+        border-bottom: solid 1px #d5c3aa;
+       .imgblog1 .img{
+            max-width: 100%;
+      
+        }
+        h2{
+            font-size: 22px;
+        }
+    }
+    @media (max-width: 768px) {
+    .inner{
+        display: none;
+    }
+    }
+}

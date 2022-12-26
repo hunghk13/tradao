@@ -10,6 +10,9 @@ import Login from '../pages/Login/Login';
 
 
 import Dk from '../pages/Resginder/Dk';
+import Chidanhuongvi from '../pages/Chidanhuongvi/Chidanhuongvi';
+import Cachphatra from '../pages/cachphatra/Cachphatra';
+import Nguoivietuongtrahaythuongtra from '../pages/Nguoivietuongtrahaythuongtra/Nguoivietuongtrahaythuongtra';
 
 function Router() {
   return (
@@ -23,6 +26,11 @@ function Router() {
       <Route path="/cart" element={<Cart />} />;
       <Route path="/login" element={<Login />} />;
       <Route path="/regin" element={<Dk />} />;
+      <Route path='/chidanhuongvi' element={<Chidanhuongvi/>}/>;
+      <Route path='/cachphatra' element={<Cachphatra/>}/>;
+      <Route path='/nguoivietuongtrahaythuongtra' element={<Nguoivietuongtrahaythuongtra/>}/>;
+
+
 
     </Routes>
 

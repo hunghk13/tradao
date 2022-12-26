@@ -11,20 +11,20 @@ const Data_News=[
         img:img1,
         display:'Chỉ dẫn hương vị',
         time:'16/10/2022- Đăng bởi HK',
-        links:'/blog/chidanhuongvi',
+        links:'/chidanhuongvi',
     },
     {
         img:img2,
         display:'Cách pha trà',
         time:'16/10/2022- Đăng bởi HK',
-        links:'/blog/cachphatra',
+        links:'/cachphatra',
 
     },
     {
         img:img3,
         display:'Người việt uống trà hay thưởng trà',
         time:'16/10/2022- Đăng bởi HK',
-        links:'/blog/nguoivietuongtrahaythuongtra',
+        links:'/nguoivietuongtrahaythuongtra',
 
     },
 ]
