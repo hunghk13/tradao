@@ -2,52 +2,13 @@ import React from 'react';
 import './Blog.scss';
 import {Helmet} from "react-helmet";
 import { Link } from 'react-router-dom';
-
-
-import {BiTime , BiUser} from 'react-icons/bi';
-import img1 from '../../assets/IMG/trav2.jpg';
-import img2 from '../../assets/IMG/travn2.jpg';
-import img3 from '../../assets/IMG/pc.jpg';
+import { Data_News1 } from '../../component/FakeData/List_blog';
 
 
 
-const Data_News1=[
-    {
-        img:img1,
-        display:'Chỉ dẫn hương vị',
-        icontime: <BiTime />,
-        iconuser: <BiUser />,
 
-        time:'16/10/2022',
-        user:'HK',
-        links:'/chidanhuongvi',
-        text:"Một “từ điển” các tính từ mô tả hương vị sau đây sẽ giúp bạn vượt qua sự...",
-    },
-    {
-        img:img2,
-        display:'Cách pha trà',
-        icontime: <BiTime />,
-        iconuser: <BiUser />,
-        user:'HK',
-        
-        time:'16/10/2022',
-        links:'/cachphatra',
-        text :'Mọi người thường nghĩ pha trà rất công phu phức tạp, nên cũng hình thành 2 “trường phái”,...',
 
-    },
-    {
-        img:img3,
-        display:'Người việt uống trà hay thưởng trà',
-        icontime: <BiTime />,
-        iconuser: <BiUser />,
-        user:'HK',
 
-        time:'16/10/2022',
-        links:'/nguoivietuongtrahaythuongtra',
-        text : "1, Việt Nam đất nước vùng chè . Trồng chè thái nguyên ở Việt Nam là một trong những cái...",
-
-    },
-]
 const Blog = () => {
   return (
     <div>

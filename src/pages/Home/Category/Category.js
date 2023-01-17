@@ -1,39 +1,12 @@
 import "./Category.scss";
 import React from "react";
-import img1 from "../../../assets/IMG/n21.jpg";
-import img2 from "../../../assets/IMG/slide4.jpg";
-import { Link } from "react-router-dom";
-import img3 from "../../../assets/IMG/x31.jpg";
-import img4 from "../../../assets/IMG/x11.jpg";
-import Button from 'react-bootstrap/Button';
 
-const DataCa = [
-  {
-    img: img1,
-    display: "Trà",
-    display2:
-      "Trà lá: chỉ lấy nước tinh chất từ lá trà. Lá trà được phơi khô, pha chế trong bình...",
-  },
-  {
-    img: img2,
-    display: "Trà Cụ",
-    display2:
-      "Trà cụ là dụng cụ dùng để pha trà với nhiều mẫu mã , kiểu dáng cách điệu khác...",
-  },]
-  const DataCa1 =[
-  {
-    img: img3,
-    display: "Giảm Giá",
-    display2:
-      "Với nhiều ưu đãi hấp dẫn Green Tea luôn mang đến cho người yêu trà có cơ hội thưởng thức...",
-  },
-  {
-    img: img4,
-    display: "Giới Thiệu",
-    display2:
-      "Đã bao lâu bạn không uống trà, thưởng thức trà theo đúng cách ??? GreenTea sẽ đưa bạn vào không...",
-  },
-];
+import { Link } from "react-router-dom";
+
+import Button from 'react-bootstrap/Button';
+import {DataCa, DataCa1} from '../../../component/FakeData/List_blog';
+
+
 
 
 

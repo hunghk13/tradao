@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
+import FormLogin from './FormLogin';
 import './Login.scss';
 
 const Login = () => {
@@ -26,6 +27,7 @@ const Login = () => {
             </svg>
             <span>Đăng nhập</span>
           </div>
+          <FormLogin></FormLogin>
         </div>
       
   
